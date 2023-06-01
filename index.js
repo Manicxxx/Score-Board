@@ -89,11 +89,17 @@ function addBtn() {
 // Changes button background, color and textContent and body background
 themeBtn.addEventListener("click", function() {
     if(themeState == "dark") {
+        // Change the state of the theme
         themeState = "light"
+
+        // Change the button style
         themeBtn.style.background = "#121212"
         themeBtn.style.color = "white"
         themeBtn.textContent = "Change Theme🌑"
+
+        // Change the body style
         document.body.style.background = "white"
+        document.body.style.color = "black"
     } 
     else if(themeState == "light"){
         themeState = "dark"
@@ -101,5 +107,6 @@ themeBtn.addEventListener("click", function() {
         themeBtn.style.color = "#121212"
         themeBtn.textContent = "Change Theme☀️"
         document.body.style.background = "#121212"
+        document.body.style.color = "white"
     }
 })
