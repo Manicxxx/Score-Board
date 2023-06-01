@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    color: #121212;
+    font-size: 50;
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+}
+
+#theme-btn {
+    margin-top: 30px;
+    margin-right: 30px;
+    background: white;
+    color: #121212;
+    position: fixed;
+    top:0;
+    right:0;
+}
+
+.scoreboard-class {
+    display: inline-flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+    margin-top: 100px;
+    background: #8B2323;
+    border-radius: 20px;
+    color: white;
+}
+
+.scoreboard-point-class {
+    background: #CD5B45;
+    color: white;
+    padding: 20px 0;
+    border-radius: 5px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #CD6839;
+    color: white;
+}
+
+#message {
+    color: white;
+    background-color: transparent;
+    padding: 20px 30px;
+    
+}
